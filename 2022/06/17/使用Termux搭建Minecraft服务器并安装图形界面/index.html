@@ -180,7 +180,61 @@
         </div>
 
         <div class="article-entry post-inner-html hairline" itemprop="articleBody">
-            <h4 id="本人使用的设备的配置"><a href="#本人使用的设备的配置" class="headerlink" title="本人使用的设备的配置"></a>本人使用的设备的配置</h4><h4 id="1-下载"><a href="#1-下载" class="headerlink" title="1.下载"></a>1.下载</h4>
+            <p><img src="https://raw.iqiq.io/xX-BERTANT-Xx/blog/imgs/1.png" alt="img1"></p>
+<hr>
+<h2 id="本人使用的设备的配置"><a href="#本人使用的设备的配置" class="headerlink" title="本人使用的设备的配置"></a><strong>本人使用的设备的配置</strong></h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">$ neofetch</span><br><span class="line"></span><br><span class="line">            .-/+oossssoo+/-.               root@AME-00101ics60d36</span><br><span class="line">        `:+ssssssssssssssssss+:`           ----------------------</span><br><span class="line">      -+ssssssssssssssssssyyssss+-         OS: Ubuntu 22.04 LTS aarch64</span><br><span class="line">    .ossssssssssssssssssdMMMNysssso.       Host: iPhone iPhone 13 Pro Max (这个是改的，当个乐子就好)</span><br><span class="line">   /ssssssssssshdmmNNmmyNMMMMhssssss/      Kernel: 3.18.60</span><br><span class="line">  +ssssssssshmydMMMMMMMNddddyssssssss+     Uptime: 1 day, 3 hours, 38 mins</span><br><span class="line"> /sssssssshNMMMyhhyyyyhmNMMMNhssssssss/    Packages: 3026 (dpkg), 1 (pkg)</span><br><span class="line">.ssssssssdMMMNhsssssssssshNMMMdssssssss.   Shell: zsh 5.8.1</span><br><span class="line">+sssshhhyNMMNyssssssssssssyNMMMysssssss+   Theme: Adwaita [GTK3]</span><br><span class="line">ossyNMMMNyMMhsssssssssssssshmmmhssssssso   Icons: Adwaita [GTK3]</span><br><span class="line">ossyNMMMNyMMhsssssssssssssshmmmhssssssso   Terminal: proot</span><br><span class="line">+sssshhhyNMMNyssssssssssssyNMMMysssssss+   CPU: MT6797X (3)</span><br><span class="line">.ssssssssdMMMNhsssssssssshNMMMdssssssss.   GPU: 00:02.0 Red Hat, Inc. QXL paravirtual graphic card</span><br><span class="line"> /sssssssshNMMMyhhyyyyhdNMMMNhssssssss/    Memory: 1367MiB / 3713MiB</span><br><span class="line">  +sssssssssdmydMMMMMMMMddddyssssssss+</span><br><span class="line">   /ssssssssssshdmNNNNmyNMMMMhssssss/</span><br><span class="line">    .ossssssssssssssssssdMMMNysssso.</span><br><span class="line">      -+sssssssssssssssssyyyssss+-</span><br><span class="line">        `:+ssssssssssssssssss+:`</span><br><span class="line">            .-/+oossssoo+/-.</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>安装之前请保证您的设备有足够的空间，而且建议使用备用机，不建议使用主力机搭建</p>
+</blockquote>
+<h2 id="下载Termux（废话）"><a href="#下载Termux（废话）" class="headerlink" title="下载Termux（废话）"></a><strong>下载Termux（废话）</strong></h2><p><strong><a target="_blank" rel="noopener" href="https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_universal.apk">下载Termux（Github）</a></strong><br><strong><a target="_blank" rel="noopener" href="https://hub.fastgit.xyz/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_universal.apk">下载Termux（FastGit）</a></strong></p>
+<blockquote>
+<p>这里下载下来就是安装包了直接安装就行</p>
+</blockquote>
+<h2 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h2><h3 id="1-进入Termux安装openssh（非必需，想要使用电脑连接设备的安装即可）"><a href="#1-进入Termux安装openssh（非必需，想要使用电脑连接设备的安装即可）" class="headerlink" title="1.进入Termux安装openssh（非必需，想要使用电脑连接设备的安装即可）"></a><strong>1.进入Termux安装openssh（非必需，想要使用电脑连接设备的安装即可）</strong></h3><p><strong>输入<code>pkg update</code></strong></p>
+<p><img src="https://raw.iqiq.io/xX-BERTANT-Xx/blog/imgs/2.png"></p>
+<p><strong>然后输入<code>pkg install openssh -y</code></strong><br><strong>静待安装完成即可，一般不会占用太多时间。</strong><br><strong>我这里安装过了所以是这样的：</strong></p>
+<p><img src="https://raw.iqiq.io/xX-BERTANT-Xx/blog/imgs/3.png"></p>
+<p><strong>修改账户密码：<code>passwd</code></strong><br><strong>最后输入<code>sshd</code>启动ssh服务</strong><br><strong>在电脑连接时就在电脑上输入<code>ssh 你的用户名@你的设备的IP -p 8022</code>(如果没公网IP的话就需要电脑和你的设备在同一局域网下)</strong><br><strong>获取用户名：<code>whoami</code></strong><br><img src="https://raw.iqiq.io/xX-BERTANT-Xx/blog/imgs/image.png"><br><strong>获取IP：<code>ifconfig</code></strong><br>需要自行根据网卡在设备上的名称进行选择，一般是<code>wlan0</code><br><a target="_blank" rel="noopener" href="https://imgtu.com/i/Xq1yRg"><img src="https://s1.ax1x.com/2022/06/17/Xq1yRg.png" alt="Xq1yRg.png"></a></p>
+<h3 id="2-使用Tmoe脚本安装-amp-管理子系统"><a href="#2-使用Tmoe脚本安装-amp-管理子系统" class="headerlink" title="2.使用Tmoe脚本安装&amp;管理子系统"></a><strong>2.使用Tmoe脚本安装&amp;管理子系统</strong></h3><p>安装&amp;打开Tmoe脚本界面：<code>curl -sSL https://gitee.com/mo2/linux/raw/master/debian.sh | bash</code><br>打开后是类似这样的界面：<br><a target="_blank" rel="noopener" href="https://imgtu.com/i/XqGaL9"><img src="https://s1.ax1x.com/2022/06/17/XqGaL9.png" alt="XqGaL9.png"></a></p>
+<blockquote>
+<p><em>如果手机没有root的话那就直接选择第一个就行了</em></p>
+</blockquote>
+<p><strong>选择第一个回车</strong></p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/XqJeFx"><img src="https://s1.ax1x.com/2022/06/17/XqJeFx.png" alt="XqJeFx.png"></a></p>
+<p><strong>然后就来到了这里，也是选第一个回车</strong></p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/XqJYkt"><img src="https://s1.ax1x.com/2022/06/17/XqJYkt.png" alt="XqJYkt.png"></a></p>
+<p><strong>来到这里之后就要看个人喜好了</strong><br><strong>可以按照自己的习惯选，安装步骤也都差不多，我这里以<code>Ubuntu</code>为例</strong></p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/XqJxnH"><img src="https://s1.ax1x.com/2022/06/17/XqJxnH.png" alt="XqJxnH.png"></a></p>
+<p><strong>这里选择版本，建议选择<code>LTS</code>，也是按喜好选，安装步骤是相同的，我这里选择<code>22.04 LTS</code></strong></p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/XqYB8K"><img src="https://s1.ax1x.com/2022/06/17/XqYB8K.png" alt="XqYB8K.png"></a></p>
+<p><strong>选择第九个回车进入安装程序(第一个也可以)</strong></p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/XqtwZj"><img src="https://s1.ax1x.com/2022/06/17/XqtwZj.png" alt="XqtwZj.png"></a></p>
+<p><strong>输入容器名称（随便起）回车</strong></p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/Xqt6zT"><img src="https://s1.ax1x.com/2022/06/17/Xqt6zT.png" alt="Xqt6zT.png"></a></p>
+<p><strong>出现这个，回车继续</strong><br><strong>然后就进入安装状态了，这个用时因人而异，等就完了，一般不会用太太太久的时间</strong></p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/XqNhjS"><img src="https://s1.ax1x.com/2022/06/17/XqNhjS.png" alt="XqNhjS.png"></a></p>
+<p><strong>中途会问你需不需要创建sudo账户</strong><br><strong>建议选否，可以省很多事</strong></p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/XqNjjU"><img src="https://s1.ax1x.com/2022/06/17/XqNjjU.png" alt="XqNjjU.png"></a></p>
+<p><strong>这里选是或否都行，就是让你终端变得更方便使用的个东西</strong><br><strong>这里我选是</strong></p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/XqUxRP"><img src="https://s1.ax1x.com/2022/06/17/XqUxRP.png" alt="XqUxRP.png"></a></p>
+<p><strong>选是</strong></p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/XqaEin"><img src="https://s1.ax1x.com/2022/06/17/XqaEin.png" alt="XqaEin.png"></a></p>
+<p><strong>这里选是或否都行</strong><br><strong>选是的话在安装完毕之后会打开刚刚的那个工具箱否则反之，我们将用这个工具箱安装图形界面</strong></p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/XqdW1x"><img src="https://s1.ax1x.com/2022/06/17/XqdW1x.png" alt="XqdW1x.png"></a></p>
+<p><strong>遇到这样的选N就行</strong></p>
+<h2 id="安装图形界面（不安装直接跳到下一步即可）"><a href="#安装图形界面（不安装直接跳到下一步即可）" class="headerlink" title="安装图形界面（不安装直接跳到下一步即可）"></a><strong>安装图形界面（不安装直接跳到下一步即可）</strong></h2><p><a target="_blank" rel="noopener" href="https://imgtu.com/i/Xq0Xm8"><img src="https://s1.ax1x.com/2022/06/17/Xq0Xm8.png" alt="Xq0Xm8.png"></a></p>
+<p><strong>如果你前面那个打开工具箱的地方选的是，那你应该会进入这里</strong><br><strong>简单明了，选1回车</strong></p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/XqBi60"><img src="https://s1.ax1x.com/2022/06/17/XqBi60.png" alt="XqBi60.png"></a></p>
+<p><strong>这里最好选1</strong></p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/XqBV7F"><img src="https://s1.ax1x.com/2022/06/17/XqBV7F.png" alt="XqBV7F.png"></a></p>
+<p><strong>这里按喜好，我选2</strong></p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/XqsCpd"><img src="https://s1.ax1x.com/2022/06/17/XqsCpd.png" alt="XqsCpd.png"></a></p>
+<p><strong>也是自愿，建议选否，毕竟是当个服务器，也用不到</strong></p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/Xqsa9J"><img src="https://s1.ax1x.com/2022/06/17/Xqsa9J.png" alt="Xqsa9J.png"></a></p>
+<p><strong>随便，几乎没有区别</strong></p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/Xqsjvn"><img src="https://s1.ax1x.com/2022/06/17/Xqsjvn.png" alt="Xqsjvn.png"></a></p>
+<p><strong>图形界面可能会安装很多软件包，用时可能会很长，看个人网速和设备性能，这里就耐心等吧</strong><br><strong>上面是我选的KDE需要占用的空间和需要安装的软件包数量</strong></p>
+
         </div>
 
     </div>
@@ -198,7 +252,7 @@
     
 
     <section class="share">
-        <div class="share-title">share</div>
+        <div class="share-title">分享</div>
         <a class="share-item" target="_blank"
             href="https://twitter.com/share?text=使用Termux搭建Minecraft服务器并安装图形界面 - Ber_tant's Blog&url=https%3A%2F%2Fblog.brins.top%2F2022%2F06%2F17%2F%25E4%25BD%25BF%25E7%2594%25A8Termux%25E6%2590%25AD%25E5%25BB%25BAMinecraft%25E6%259C%258D%25E5%258A%25A1%25E5%2599%25A8%25E5%25B9%25B6%25E5%25AE%2589%25E8%25A3%2585%25E5%259B%25BE%25E5%25BD%25A2%25E7%2595%258C%25E9%259D%25A2%2F">
             <ion-icon name="logo-twitter"></ion-icon>
